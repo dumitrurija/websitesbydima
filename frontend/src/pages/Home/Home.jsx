@@ -4,6 +4,7 @@ import React from 'react'
 import Hero from './Hero'
 import Services from './Services'
 import Choose from './Choose'
+import Testimonials from './Testimonials'
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
       <Hero />
       <Services />
       <Choose />
+      <Testimonials />
     </section>
   )
 }

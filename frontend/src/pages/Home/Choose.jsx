@@ -47,7 +47,7 @@ const Choose = () => {
       <div id="container" className='grid grid-cols-2'>
         {
           data.map(el => 
-            <div key={el.id} className={`p-12 flex flex-col gap-6 border border-zinc-800 ${el.id % 2 === 0 ? 'border-r-0 border-l-0 border-b-0' : 'border-l-0 border-b-0'}`}>
+            <div key={el.id} className={`p-12 flex flex-col gap-6 border border-zinc-800 ${el.id % 2 === 0 ? 'border-r-0 border-l-0' : 'border-l-0'}`}>
               <div className='flex items-center gap-4'>
                   <div className="text-lime-400 text-4xl bg-gradient-to-t from-zinc-900 to-zinc-800 flex justify-center items-center h-16 w-16 rounded-md">
                     { el.icon }
