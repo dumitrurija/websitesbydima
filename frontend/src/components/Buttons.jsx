@@ -2,7 +2,7 @@ import React from 'react'
 
 const ButtonClassic = ({ children }) => {
   return (
-    <button className='bg-black/40 px-4 py-4 rounded-md text-white'>
+    <button className='bg-zinc-800 px-4 py-4 rounded-md text-white'>
       {children}
     </button>
   )
@@ -16,4 +16,12 @@ const ButtonGreen = ({ children }) => {
   )
 }
 
-export { ButtonClassic, ButtonGreen }
+const ButtonLearnMore = ({ children }) => {
+  return (
+    <button className="bg-zinc-800 p-4 mt-12">
+      {children}
+    </button>
+  )
+}
+
+export { ButtonClassic, ButtonGreen, ButtonLearnMore }
