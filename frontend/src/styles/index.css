@@ -8,3 +8,11 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+button {
+    cursor: pointer;
+}
+
+input {
+    outline: none;
+}

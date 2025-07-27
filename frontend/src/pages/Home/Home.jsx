@@ -6,6 +6,7 @@ import Services from './Services'
 import Choose from './Choose'
 import Testimonials from './Testimonials'
 import FAQ from './FAQ'
+import Contact from './Contact'
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
       <Choose />
       <Testimonials />
       <FAQ />
+      <Contact />
     </section>
   )
 }
