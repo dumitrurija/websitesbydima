@@ -60,6 +60,8 @@ const Contact = () => {
               <input type="email" placeholder="Type here" className="border-b border-b-zinc-600 pb-1" />
             </label>
           </div>
+
+          <ButtonGreen>Submit</ButtonGreen>
         </form>
       </div>
     </div>

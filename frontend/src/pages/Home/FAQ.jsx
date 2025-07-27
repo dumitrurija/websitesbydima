@@ -2,6 +2,9 @@ import { useState } from "react";
 import { homeImgs } from "../../assets/assets"
 import AboutSection from "../../components/AboutSection"
 
+// components
+import Icon from "../../components/Icon";
+
 // icons
 import AddIcon from '@mui/icons-material/Add';
 import CloseIcon from '@mui/icons-material/Close';

@@ -10,7 +10,7 @@ const ButtonClassic = ({ children }) => {
 
 const ButtonGreen = ({ children }) => {
   return (
-    <button className='bg-lime-400 px-4 py-4 rounded-md text-black'>
+    <button className='bg-lime-400 px-4 py-4 rounded-md text-black m-auto'>
       {children}
     </button>
   )
