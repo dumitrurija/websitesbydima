@@ -5,8 +5,8 @@ import Layout from "./Layout"
 
 // Pages, Components
 import Home from "./pages/Home/Home"
-import Services from "./pages/Services"
-import Work from "./pages/Work"
+import Services from "./pages/Services/Services"
+import Work from "./pages/Work/Work"
 import Process from "./pages/Process"
 import About from "./pages/About"
 import Contact from "./pages/Contact"

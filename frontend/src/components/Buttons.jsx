@@ -1,14 +1,14 @@
 import React from 'react'
 
-const ButtonClassic = ({ children }) => {
+const ButtonClassic = ({ children, className }) => {
   return (
-    <button className='bg-zinc-800 px-4 py-4 rounded-md text-white'>
+    <button className={`bg-zinc-800 px-4 py-4 rounded-md text-white ${className}`}>
       {children}
     </button>
   )
 }
 
-const ButtonGreen = ({ children }) => {
+const ButtonGreen = ({ children, className }) => {
   return (
     <button className='bg-lime-400 px-4 py-4 rounded-md text-black m-auto'>
       {children}
