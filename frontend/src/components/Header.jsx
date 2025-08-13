@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import {ButtonGreen} from "../components/Buttons"
 
 const Header = () => {
   return (
@@ -22,9 +23,11 @@ const Header = () => {
         </ul>
       </nav>
 
-      <button className='bg-lime-400 px-4 py-4 rounded-md text-black'>
-        Contact Us
-      </button>
+      <Link to="/contact">
+        <ButtonGreen>
+          Contact Us
+        </ButtonGreen>
+      </Link>
     </header>
   )
 }

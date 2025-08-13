@@ -33,6 +33,18 @@ import fourth_project_img from "./work_imgs/projects/4.svg"
 import fifth_project_img from "./work_imgs/projects/5.svg"
 import sixth_project_img from "./work_imgs/projects/6.svg"
 
+// Process page Imgs
+
+// About page Imgs
+import about_welcome_img from "./about_imgs/about_welcome_img.svg"
+import info_img from "./about_imgs/info_img.svg"
+
+// Contact page Imgs
+import contact_welcome_img from "./contact_imgs/contact_welcome_img.svg"
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
+
 export const homeImgs = {
   hero_img, services_img, choose_img, testimonials_img, walter_basico, faq_img, contact_img
 }
@@ -47,4 +59,16 @@ export const servicesIcons = {
 
 export const workImgs = {
   work_welcome_img, first_project_img, second_project_img, third_project_img, fourth_project_img, fifth_project_img, sixth_project_img
+}
+
+export const processImgs = {
+  work_welcome_img
+}
+
+export const aboutImgs = {
+  about_welcome_img, info_img
+}
+
+export const contactImgs = {
+  contact_welcome_img, LinkedInIcon, InstagramIcon, LocalPhoneIcon
 }

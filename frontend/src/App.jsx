@@ -7,9 +7,9 @@ import Layout from "./Layout"
 import Home from "./pages/Home/Home"
 import Services from "./pages/Services/Services"
 import Work from "./pages/Work/Work"
-import Process from "./pages/Process"
-import About from "./pages/About"
-import Contact from "./pages/Contact"
+import Process from "./pages/Process/Process"
+import About from "./pages/About/About"
+import Contact from "./pages/Contact/Contact"
 
 const App = () => {
   return (
